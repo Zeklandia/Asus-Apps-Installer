@@ -1,3 +1,6 @@
+<b><#selectbg_g>2.3.1</#></b>
+<*>Switch to AROMA 2.7.6</*>
+
 <b><#selectbg_g>2.3.0</#></b>
 <*>Switch to AROMA 2.7.0</*>
 <*>Fix issue with empty entries causing installation of unselected items</*>
