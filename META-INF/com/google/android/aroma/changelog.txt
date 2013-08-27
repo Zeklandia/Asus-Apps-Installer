@@ -1,3 +1,11 @@
+<b><#selectbg_g>2.4.0</#></b>
+<*>Update to latest CROMI-X apps</*>
+<*>Added Stock Launcher</*>
+<*>Added Stock Task Manager</*>
+<*>Added Photo Wall</*>
+<*>Added Parent Lock</*>
+<*>Added WebStorage</*>
+
 <b><#selectbg_g>2.3.1</#></b>
 <*>Switch to AROMA 2.7.6</*>
 

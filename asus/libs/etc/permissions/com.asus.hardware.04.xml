@@ -16,4 +16,9 @@
     <feature name="asus.hardware.gps" />
     <feature name="asus.hardware.wifi.direct" />
     <feature name="asus.hardware.camera.flash" />
+    <feature name="asus.hardware.camera" />
+    <feature name="asus.hardware.sensor.compass" />
+    <feature name="asus.hardware.sensor.gyroscope" />
+    <feature name="asus.hardware.sensor.light" />
+    <feature name="asus.hardware.sensor.accelerometer" />
 </permissions>
