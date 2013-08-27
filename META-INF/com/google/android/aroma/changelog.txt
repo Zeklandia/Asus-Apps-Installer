@@ -1,0 +1,18 @@
+<b><#selectbg_g>2.3.0</#></b>
+<*>Switch to AROMA 2.7.0</*>
+<*>Fix issue with empty entries causing installation of unselected items</*>
+
+<b><#selectbg_g>2.2.0</#></b>
+<*>Fixed keeping old install configuration and being unable to change it</*>
+
+<b><#selectbg_g>2.1.0</#></b>
+<*>Added Asus Keyboard</*>
+<*>Cleaned up scripts</*>
+
+<b><#selectbg_g>1.1.0</#></b>
+<*>Fixed permissions issue</*>
+<*>Fixed innacurate loading status</*>
+<*>Switched to AROMA installer</*>
+
+<b><#selectbg_g>1.0</#></b>
+<*>First Release</*>
