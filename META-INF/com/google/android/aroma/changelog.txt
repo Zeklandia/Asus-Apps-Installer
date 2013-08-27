@@ -5,6 +5,7 @@
 <*>Added Photo Wall</*>
 <*>Added Parent Lock</*>
 <*>Added WebStorage</*>
+<*>Removed deprecated files</*>
 
 <b><#selectbg_g>2.3.1</#></b>
 <*>Switch to AROMA 2.7.6</*>
