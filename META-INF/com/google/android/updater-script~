@@ -1,6 +1,6 @@
 set_progress(0.00);
 ui_print("Thank you for installing Mod - Asus Apps!");
-ui_print("Mod Version - 3.0.0");
+ui_print("Mod Version - 2.3.0");
 ui_print("-----------------------------------------");
 show_progress(0.01, 20);
 ui_print("Preparing partitions...");

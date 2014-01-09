@@ -19,10 +19,10 @@ theme("ics");
 ini_set("customkeycode_menu", "116");
 
 ini_set("rom_name",             "Mod - Asus Apps Installer");
-ini_set("rom_version",          "2.3.0");
+ini_set("rom_version",          "3.0.0");
 ini_set("rom_author",           "Zeklandia");
 ini_set("rom_device",           "Asus Transformer Infinity Tf700T");
-ini_set("rom_date",             "June 23, 2013");
+ini_set("rom_date",             "January 8, 2014");
 
 splash(
     2000,
