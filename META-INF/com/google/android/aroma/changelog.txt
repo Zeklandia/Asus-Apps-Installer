@@ -2,8 +2,6 @@
 <b><#selectbg_g>3.0.0</#></b>
 <*>Update to latest Apps</*>
 
-=======
->>>>>>> fe5a7b2bcdae654628f04bc7f5d52d63bba94d33
 <b><#selectbg_g>2.4.0</#></b>
 <*>Update to latest CROMI-X apps</*>
 <*>Added Stock Launcher</*>
