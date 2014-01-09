@@ -17,7 +17,9 @@ then
 	ui_print(" - Asus Battery Widget");
     package_extract_dir("asus/battery", "/system");
 endif;
-set_progress(0.05);
+
+set_progress(0.04);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.2") == "1"
 then
@@ -25,112 +27,188 @@ then
     package_extract_dir("asus/mydictionary", "/system");
     package_extract_dir("asus/libs", "/system");
 endif;
-set_progress(0.10);
+
+set_progress(0.8);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.3") == "1"
 then
 	ui_print(" - Stock File Manager");
     package_extract_dir("asus/stockfm", "/system");
 endif;
-set_progress(0.15);
+
+set_progress(0.12);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.4") == "1"
 then
 	ui_print(" - My Frame");
     package_extract_dir("asus/myframe", "/system");
 endif;
-set_progress(0.20);
+
+set_progress(0.16);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.5") == "1"
 then
 	ui_print(" - Asus Desk Clock and Widget");
     package_extract_dir("asus/adeskclock", "/system");
 endif;
-set_progress(0.25);
+
+set_progress(0.20);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.6") == "1"
 then
 	ui_print(" - Asus Weather Widget");
     package_extract_dir("asus/weather", "/system");
 endif;
-set_progress(0.30);
+
+set_progress(0.24);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.7") == "1"
 then
 	ui_print(" - SuperNote Pro");
     package_extract_dir("asus/supernote", "/data");
 endif;
-set_progress(0.35);
+
+set_progress(0.28);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.8") == "1"
 then
 	ui_print(" - App Back Up");
     package_extract_dir("asus/appback", "/system");
 endif;
-set_progress(0.40);
+
+set_progress(0.32);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.9") == "1"
 then
 	ui_print(" - App Locker");
     package_extract_dir("asus/applock", "/system");
 endif;
-set_progress(0.45);
+
+set_progress(0.36);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.10") == "1"
 then
 	ui_print(" - My Cloud");
     package_extract_dir("asus/mycloud", "/data");
 endif;
-set_progress(0.50);
+
+set_progress(0.40);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.11") == "1"
 then
 	ui_print(" - Splashtop");
     package_extract_dir("asus/splashtop", "/system");
 endif;
-set_progress(0.55);
+
+set_progress(0.44);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.12") == "1"
 then
 	ui_print(" - My Net");
     package_extract_dir("asus/mynet", "/system");
 endif;
-set_progress(0.60);
+
+set_progress(0.48);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.13") == "1"
 then
 	ui_print(" - Video Editor");
     package_extract_dir("asus/videoeditor", "/system");
 endif;
-set_progress(0.65);
+
+set_progress(0.52);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.14") == "1"
 then
 	ui_print(" - Asus MyLibrary Reader");
     package_extract_dir("asus/mylibrary", "/system");
 endif;
-set_progress(0.70);
+
+set_progress(0.56);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.15") == "1"
 then
 	ui_print(" - Asus Screensaver");
     package_extract_dir("asus/screensaver", "/system");
 endif;
-set_progress(0.75);
+
+set_progress(0.60);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.16") == "1"
 then
 	ui_print(" - Asus Live Wallpapers");
     package_extract_dir("asus/livewall", "/system");
 endif;
-set_progress(0.80);
+
+set_progress(0.64);
+
 if
     file_getprop("/tmp/aroma-data/asus.prop","item.0.17") == "1"
 then
 	ui_print(" - Asus Keyboard");
     package_extract_dir("asus/keyboard", "/system");
 endif;
-set_progress(0.85);
+
+set_progress(0.68);
+
+if
+    file_getprop("/tmp/aroma-data/asus.prop","item.0.18") == "1"
+then
+	ui_print(" - Stock Launcher");
+    package_extract_dir("asus/launcher", "/system");
+endif;
+
+set_progress(0.72);
+
+if
+    file_getprop("/tmp/aroma-data/asus.prop","item.0.19") == "1"
+then
+	ui_print(" - Task Manager");
+    package_extract_dir("asus/taskmanager", "/system");
+endif;
+
+set_progress(0.76);
+
+if
+    file_getprop("/tmp/aroma-data/asus.prop","item.0.20") == "1"
+then
+	ui_print(" - Photo Table");
+    package_extract_dir("asus/pictable", "/system");
+endif;
+
+set_progress(0.80);
+
+if
+    file_getprop("/tmp/aroma-data/asus.prop","item.0.21") == "1"
+then
+	ui_print(" - Parent Lock");
+    package_extract_dir("asus/parentlock", "/system");
+endif;
+
+set_progress(0.84);
+
+if
+    file_getprop("/tmp/aroma-data/asus.prop","item.0.22") == "1"
+then
+	ui_print(" - WebStorage");
+    package_extract_dir("asus/webstorage", "/system");
+endif;
+
+
 
 #-- Other Apps --#
 ui_print("Other Apps");
@@ -140,20 +218,24 @@ then
 	ui_print(" - Adobe Flash");
     package_extract_dir("other/flash", "/data");
 endif;
-set_progress(0.90);
+
+set_progress(0.88);
+
 if
     file_getprop("/tmp/aroma-data/other.prop","item.0.2") == "1"
 then
 	ui_print(" - AdAway");
     package_extract_dir("other/adaway", "/data");
 endif;
-set_progress(0.95);
+
+set_progress(0.92);
+
 
 #-- Unmount --#
 delete("/tmp/aroma-data/asus.prop");
 delete("/tmp/aroma-data/other.prop");
 ui_print("Unmounting partitions...");
-set_progress(0.99);
+set_progress(0.96);
 unmount("/data");
 unmount("/system");
 set_progress(1.0);

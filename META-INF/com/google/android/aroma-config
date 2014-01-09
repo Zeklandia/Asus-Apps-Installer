@@ -60,23 +60,30 @@ checkbox(
   "Check the ones you want",
   "@apps",
   "asus.prop",
-  "Battery Widget",			"Compatible with all ROMs and launchers",	1,
-  "My Dictionary",			"Compatible with all ROMs",			1,
-  "Stock File Manager",			"Compatible with stock based ROMs only",	0,
-  "My Frame",				"Compatible with all ROMs",			0,
-  "Asus Desk Clock and Widget",		"Compatible with stock based ROMs only",	0,
-  "Asus Weather Widget",		"Compatible with Stock Launcher only",		0,
-  "SuperNote Pro",			"Also available in Play Store",			0,
-  "App Back Up",			"Compatible with stock based ROMs only",	0,
-  "App Locker",				"Compatible with stock based ROMs only",	0,
-  "My Cloud",				"Compatible with all ROMs",			0,
-  "Splashtop",				"Compatible with all ROMs",			0,
-  "My Net",				"Compatible with all ROMs",			0,
-  "Video Editor",			"Compatible with all ROMs",			0,
-  "My Library Asus Reader",		"Compatible with stock based ROMs only",	0,
-  "Asus Screensaver",			"Compatible with stock based ROMs only",	0,
-  "Live Wallpapers",			"Compatible with all ROMs",			0,
-  "Asus Keyboard",			"Compatible with stock based ROMs only",	0
+# Title					Description					Default	#
+########################################################################################################################
+  "Battery Widget",			"Compatible with all ROMs and launchers",	1,	#1
+  "My Dictionary",			"Compatible with all ROMs",			1,	#2
+  "Stock File Manager",			"Compatible with stock based ROMs only",	0,	#3
+  "My Frame",				"Compatible with all ROMs",			0,	#4
+  "Asus Desk Clock and Widget",		"Compatible with stock based ROMs only",	0,	#5
+  "Asus Weather Widget",		"Compatible with Stock Launcher only",		0,	#6
+  "SuperNote Pro",			"Also available in Play Store",			0,	#7
+  "App Back Up",			"Compatible with stock based ROMs only",	0,	#8
+  "App Locker",				"Compatible with stock based ROMs only",	0,	#9
+  "My Cloud",				"Compatible with all ROMs",			0,	#10
+  "Splashtop",				"Compatible with all ROMs",			0,	#11
+  "My Net",				"Compatible with all ROMs",			0,	#12
+  "Video Editor",			"Compatible with all ROMs",			0,	#13
+  "My Library Asus Reader",		"Compatible with stock based ROMs only",	0,	#14
+  "Asus Screensaver",			"Compatible with stock based ROMs only",	0,	#15
+  "Live Wallpapers",			"Compatible with all ROMs",			0,	#16
+  "Asus Keyboard",			"Compatible with stock based ROMs only",	0,	#17
+  "Stock Launcher",			"Compatible with stock based ROMs only",	0,	#18
+  "Task Manager",			"Compatible with stock based ROMs only",	0,	#19
+  "Photo Table",			"Compatible with stock based ROMs only",	0,	#20
+  "Parent Lock",			"Compatible with stock based ROMs only",	0,	#21
+  "WebStorage",				"Also available in Play Store",			0,	#22
 );
 
 checkbox(
@@ -84,7 +91,7 @@ checkbox(
   "Check the ones you want",
   "@apps",
   "other.prop",
-  "Adobe Flash",			"",						1,
+  "Adobe Flash",			"Deprecated",						1,
   "AdAway",				"2.3",						1
 );
 
